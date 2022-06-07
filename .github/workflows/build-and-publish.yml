@@ -1,0 +1,28 @@
+---
+name: Build & Publish
+on: push
+
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+    steps:
+      - uses: actions/checkout@v3.0.2
+      - name: Setup Hugo
+        run: |
+          wget -O hugo.tar.gz --progress=dot:mega https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
+          tar -xzvf hugo.tar.gz -C /usr/local/bin hugo
+          rm hugo.tar.gz
+          hugo version
+        env:
+          HUGO_VERSION: 0.49
+      - name: Build
+        run: cd docs && hugo --minify
+      - name: Deploy
+        # if: ${{ github.ref == 'refs/heads/main' }}
+        uses: JamesIves/github-pages-deploy-action@v4.3.3
+        with:
+          branch: gh-pages
+          folder: ./docs/public
+          git-config-name: ${{ github.event.head_commit.author.name }}

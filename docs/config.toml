@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://binary-repositories-comparison.github.io/"
+baseurl = "https://lvjp.github.io/binary-repositories-comparison.github.io/"
 languageCode = "en-us"
 title = "Binary Repository Manager Feature Matrix"
 theme = "hugo-freelancer-theme"
