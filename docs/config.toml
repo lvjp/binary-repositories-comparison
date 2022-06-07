@@ -28,7 +28,7 @@ theme = "hugo-freelancer-theme"
     [params.about]
         title = "About"
         left = "This is the reincarnation of the (now dead) [Maven Repository Manager Feature Matrix](http://docs.codehaus.org/display/MAVENUSER/Maven+Repository+Manager+Feature+Matrix) and it picks up exactly where the old doc left it. The page is collaboratively updated by the community and vendors, making it the most complete, up-to-date and non-biased comparison of Binary Repository Managers."
-        right = "Help to improve this page by opening a new [issue](https://github.com/binary-repositories-comparison/binary-repositories-comparison.github.io/issues/new) or create a [pull request](https://github.com/binary-repositories-comparison/binary-repositories-comparison.github.io/compare)"
+        right = "Help to improve this page by opening a new [issue](https://github.com/lvjp/binary-repositories-comparison.github.io/issues/new) or create a [pull request](https://github.com/lvjp/binary-repositories-comparison.github.io/compare)"
 
         [params.about.button]
             text = "Download theme"
@@ -36,11 +36,11 @@ theme = "hugo-freelancer-theme"
             icon = "download"
 
     [params.github]
-        url = "https://github.com/binary-repositories-comparison/binary-repositories-comparison.github.io"
+        url = "https://github.com/lvjp/binary-repositories-comparison.github.io"
 
 
     [params.footer]
-        copyright = "Published under the [CC0 1.0 Universal license](https://github.com/binary-repositories-comparison/binary-repositories-comparison.github.io/blob/master/LICENSE)"
+        copyright = "Published under the [CC0 1.0 Universal license](https://github.com/lvjp/binary-repositories-comparison.github.io/blob/master/LICENSE)"
 
         [params.footer.update]
             title = "Last update"
@@ -50,4 +50,4 @@ theme = "hugo-freelancer-theme"
             title = "Around the web"
             [[params.footer.social.networks]]
                 icon = "fa-github"
-                link = "//github.com/binary-repositories-comparison/binary-repositories-comparison.github.io"
+                link = "//github.com/lvjp/binary-repositories-comparison.github.io"

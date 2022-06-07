@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/binary-repositories-comparison/binary-repositories-comparison.github.io.svg?branch=master)](https://travis-ci.org/binary-repositories-comparison/binary-repositories-comparison.github.io)
+[![Build Status](https://github.com/lvjp/binary-repositories-comparison.github.io/actions/workflows/build-and-publish.yml/badge.svg)](https://github.com/lvjp/binary-repositories-comparison.github.io/actions/workflows/build-and-publish.yml)
 
 # binary-repositories-comparison.github.io
 
