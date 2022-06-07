@@ -44,7 +44,7 @@ theme = "hugo-freelancer-theme"
 
         [params.footer.update]
             title = "Last update"
-            date = "2017-04-29 15:08:24 UTC"
+            date = "2022-06-07 20:48 UTC"
 
         [params.footer.social]
             title = "Around the web"
