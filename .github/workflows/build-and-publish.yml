@@ -20,7 +20,7 @@ jobs:
       - name: Build
         run: cd docs && hugo --minify
       - name: Deploy
-        # if: ${{ github.ref == 'refs/heads/main' }}
+        if: ${{ github.ref == 'refs/heads/master' }}
         uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
           branch: gh-pages
