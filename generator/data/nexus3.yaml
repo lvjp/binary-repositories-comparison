@@ -1,0 +1,10 @@
+meta:
+  name: Nexus v3
+
+versions:
+  screenshots: >-
+    {{< figure src="./img/nexus30.png" link="./img/nexus30.png?raw=true" width="96">}}
+  number: '3'
+  history: [Release History](https://support.sonatype.com/hc/en-us/sections/203012688-Release-Notes)
+  license: Eclipse Public License Version 1.0
+  publicInstances: {{<cross>}}

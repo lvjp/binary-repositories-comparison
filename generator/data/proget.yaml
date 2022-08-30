@@ -1,0 +1,9 @@
+meta:
+  name: ProGet
+
+versions:
+  screenshots: '-'
+  number: '4.3.x'
+  history: [Roadmap and History](http://inedo.com/proget/roadmap)
+  license: [Proprietary](http://inedo.com/proget/license-agreement)
+  publicInstances: {{<cross>}}

@@ -1,0 +1,10 @@
+meta:
+  name: Nexus v2
+versions:
+  screenshots: >-
+    {{< figure src="./img/nexus0.png" link="./img/nexus0.png?raw=true" width="96">}}<br/>
+    {{< figure src="./img/nexus1.png" link="./img/nexus1.png?raw=true" width="96">}}
+  number: '2.11.2'
+  history: [Release History](http://links.sonatype.com/products/nexus/pro/release-notes)
+  license: Eclipse Public License Version 1.0
+  publicInstances: <ul><li>[Alfresco](http://maven.alfresco.com/nexus)</li><li>[Apache](http://repository.apache.org/)</li><li>[Atlassian](http://maven.atlassian.com/)</li><li>[ExoPlatform](http://repository.exoplatform.org/)</li><li>[Glassfish](http://maven.glassfish.org/)</li><li>[Sonatype Forge](http://repository.sonatype.org/)</li><li>[Sonatype OSS Hosting](http://oss.sonatype.org/)</li></ul>

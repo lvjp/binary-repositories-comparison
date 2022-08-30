@@ -1,0 +1,10 @@
+meta:
+  name: Cloud Repo
+
+  versions:
+    screenshots: >-
+      {{< figure src="./img/cloudrepo0.png" link="./img/cloudrepo0.png?raw=true" width="96">}}
+    number: '1'
+    history: [Release History](https://www.cloudrepo.io/release-notes.html)
+    license: [Proprietary](https://www.cloudrepo.io/tos.html)
+    publicInstances: {{<cross>}}

@@ -1,0 +1,17 @@
+versions:
+  screenshots: >-
+    {{< figure src="./img/archiva0.png" link="./img/archiva0.png" width="96">}}<br/>
+    {{< figure src="./img/archiva1.png" link="./img/archiva1.png" width="96">}}
+  number: '2.0.1'
+  history: [Release History](http://archiva.apache.org/docs/current/release-notes.html)
+  license: 'All versions: Apache License 2.0 '
+  publicInstances: [Archiva Instance at Apache](https://archiva-repository.apache.org/archiva/index.html?request_lang=en)
+meta:
+  name: MyGet
+
+versions:
+  screenshots: '-'
+  number: '2.2.x'
+  history: [Release History](http://docs.myget.org/docs/release-notes/myget-2.2)
+  license: [Proprietary](https://www.myget.org/policies/terms)
+  publicInstances: <ul><li>[www.myget.org](https://www.myget.org)</li><li>[dotnet.myget.org](https://dotnet.myget.org)</li></ul>

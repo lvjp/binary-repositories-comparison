@@ -1,0 +1,11 @@
+meta:
+  name: Apache Archiva
+
+versions:
+  screenshots: >-
+    {{< figure src="./img/archiva0.png" link="./img/archiva0.png" width="96">}}<br/>
+    {{< figure src="./img/archiva1.png" link="./img/archiva1.png" width="96">}}
+  number: '2.0.1'
+  history: [Release History](http://archiva.apache.org/docs/current/release-notes.html)
+  license: 'All versions: Apache License 2.0 '
+  publicInstances: [Archiva Instance at Apache](https://archiva-repository.apache.org/archiva/index.html?request_lang=en)

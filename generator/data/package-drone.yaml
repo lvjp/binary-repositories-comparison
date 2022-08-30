@@ -1,0 +1,11 @@
+meta:
+  name: Package Drone
+
+versions:
+  screenshots: >-
+    {{< figure src="./img/pdrone0.png" link="./img/pdrone0.png?raw=true" width="96">}}<br/>
+    {{< figure src="./img/pdrone1.png" link="./img/pdrone1.png?raw=true" width="96">}}
+  number: '0.12.1'
+  history: <ul><li>[Release History](https://projects.eclipse.org/projects/technology.package-drone)</li><li>[Early Release History (GitHub)](https://github.com/ctron/package-drone/releases)</li></ul>
+  license: Eclipse Public License Version 1.0
+  publicInstances: <ul><li>[The Drone](https://thedrone.packagedrone.org/)</li><li>[Instance at Eclipse](https://packagedrone.eclipse.org/)</li></ul>
